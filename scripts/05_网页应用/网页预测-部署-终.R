@@ -9,12 +9,12 @@
 #   SHINYAPPS_SECRET
 #
 # 在项目根目录运行：
-#   Rscript scripts/5-shiny-app/网页预测-部署-终.R
+#   Rscript scripts/05_网页应用/网页预测-部署-终.R
 # ============================================================
 
 library(rsconnect)
 
-app_dir <- file.path("scripts", "5-shiny-app")
+app_dir <- file.path("scripts", "05_网页应用", "01_最终版")
 if (!file.exists(file.path(app_dir, "网页预测-交互页面-终.R"))) {
   stop("请在仓库根目录运行本脚本。")
 }
