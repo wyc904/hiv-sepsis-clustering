@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code in academic work, please cite this repository."
+title: "HIV-associated Sepsis Clinical Subphenotype Clustering"
+type: software
+authors:
+  - name: "wyc904"
+    website: "https://github.com/wyc904"
+repository-code: "https://github.com/wyc904/hiv-sepsis-clustering"
+url: "https://github.com/wyc904/hiv-sepsis-clustering"
+license: "CC-BY-NC-4.0"
+version: "1.0.0"
+date-released: "2026-10-21"
+keywords:
+  - "HIV"
+  - "sepsis"
+  - "clinical subphenotypes"
+  - "clustering"
+  - "Gaussian mixture model"
+  - "latent class analysis"
+  - "R"
+abstract: >-
+  Analysis code for identifying clinical subphenotypes in HIV-associated sepsis:
+  Gaussian mixture model (GMM) clustering, latent class analysis as a methodological
+  comparison, external cohort validation, between-subtype statistics, LASSO/Logistic
+  prediction modelling, calibration assessment, publication figures, and a Shiny
+  prediction application. The repository contains code only; no patient-level data
+  are included.

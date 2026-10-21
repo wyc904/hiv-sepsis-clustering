@@ -211,17 +211,46 @@ setwd(Sys.getenv("SEPSIS_DATA_DIR", unset = "D:/Desktop"))
 | [`docs/notes.md`](docs/notes.md) | 整理说明、原工程对照与改动记录 |
 | [`data/README.md`](data/README.md) | 数据放置与隐私说明 |
 | [`TERMS.md`](TERMS.md) | 使用条款与免责声明 |
+| [`CITATION.cff`](CITATION.cff) | 引用信息（Citation File Format） |
+| [`LICENSE`](LICENSE) | CC BY-NC 4.0 许可证全文 |
 
 ---
 
-## 9. 使用条款
+## 9. 许可证
 
-本仓库代码仅供学术研究与复现参考；未经作者许可，不得用于商业用途或二次发表。
-原始数据不随代码提供。完整条款见 [`TERMS.md`](TERMS.md)。
+本仓库代码采用 **Creative Commons Attribution-NonCommercial 4.0 International
+（CC BY-NC 4.0）** 许可：
+
+- 允许在**非商业**目的下复制、修改、分发代码，但须注明出处；
+- 不得用于商业用途；
+- 完整法律文本见 [`LICENSE`](LICENSE)。
+
+原始数据不随代码提供，数据使用另受伦理审批与数据使用协议约束。
 
 ---
 
-## 10. 已知问题与命名说明
+## 10. 引用方式
+
+如本仓库代码对你的研究有帮助，请引用：
+
+```bibtex
+@software{wyc904_hiv_sepsis_clustering_2026,
+  author  = {wyc904},
+  title   = {HIV-associated Sepsis Clinical Subphenotype Clustering},
+  year    = {2026},
+  version = {1.0.0},
+  license = {CC-BY-NC-4.0},
+  url     = {https://github.com/wyc904/hiv-sepsis-clustering}
+}
+```
+
+GitHub 会自动读取 [`CITATION.cff`](CITATION.cff)，在仓库页面右侧提供
+“Cite this repository”按钮。论文发表后可在 `CITATION.cff` 中补充
+`preferred-citation`（作者、期刊、DOI）。
+
+---
+
+## 11. 已知问题与命名说明
 
 脚本保留原始文件名以便与历史分析记录对应，其中几处命名与实际内容不一致：
 
@@ -238,7 +267,7 @@ setwd(Sys.getenv("SEPSIS_DATA_DIR", unset = "D:/Desktop"))
 
 ---
 
-## 11. 数据与伦理
+## 12. 数据与伦理
 
 - 原始数据、中间表、患者级信息**均未收录**，且被 `.gitignore` 屏蔽。
 - 使用数据前需获得伦理委员会批准及数据使用授权。
